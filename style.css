@@ -1,0 +1,170 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Avenir", "Avenir Next", sans-serif;
+}
+
+/* Table Container */
+.table-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table Headers */
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* User Icon Column */
+.user-icon {
+  width: 60px;
+  text-align: center;
+}
+
+.user-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* User Info Column */
+.user-info {
+  min-width: 150px;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.email {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Table Cells */
+td {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 0.85rem;
+  }
+  .user-icon img {
+    width: 35px;
+    height: 35px;
+  }
+  .name {
+    font-size: 0.9rem;
+  }
+  .email {
+    font-size: 0.75rem;
+  }
+}
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Table Container */
+.table-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table Headers */
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* User Icon Column */
+.user-icon {
+  width: 60px;
+  text-align: center;
+}
+
+.user-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* User Info Column */
+.user-info {
+  min-width: 150px;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.email {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Table Cells */
+td {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 0.85rem;
+  }
+  .user-icon img {
+    width: 45px;
+    height: 45px;
+  }
+  .name {
+    font-size: 0.9rem;
+  }
+  .email {
+    font-size: 0.75rem;
+  }
+}

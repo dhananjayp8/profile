@@ -1,0 +1,21 @@
+
+Avatar - Full Name / Email
+5 options ->
+Profile
+Feedback
+Settings->
+Help?
+Logout
+
+Profile
+
+
+
+Settings
+Security
+Notifications
+Privacy
+Offline Preferences
+
+
+
