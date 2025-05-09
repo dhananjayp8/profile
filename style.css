@@ -6,14 +6,16 @@
   font-family: "Avenir", "Avenir Next", sans-serif;
 }
 
-
 .table-container {
   width: 100%;
   max-width: 800px;
   margin: 20px auto;
   overflow-x: auto;
 }
-
+.table-container h1 {
+  text-align: center;
+  color: black;
+}
 
 table {
   width: 100%;
@@ -24,14 +26,12 @@ table {
   overflow: hidden;
 }
 
-
 th,
 td {
   padding: 12px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
-
 
 .user-icon {
   width: 60px;
@@ -44,7 +44,6 @@ td {
   border-radius: 50%;
   object-fit: cover;
 }
-
 
 .user-info {
   min-width: 150px;
@@ -61,12 +60,10 @@ td {
   color: #666;
 }
 
-
 td {
   font-size: 0.9rem;
   color: #444;
 }
-
 
 @media screen and (max-width: 600px) {
   table {
@@ -91,14 +88,12 @@ td {
   font-family: Arial, sans-serif;
 }
 
-
 .table-container {
   width: 100%;
   max-width: 800px;
   margin: 20px auto;
   overflow-x: auto;
 }
-
 
 table {
   width: 100%;
@@ -109,14 +104,12 @@ table {
   overflow: hidden;
 }
 
-
 th,
 td {
   padding: 12px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
-
 
 .user-icon {
   width: 60px;
